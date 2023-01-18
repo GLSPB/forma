@@ -1,0 +1,126 @@
+body {
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*padding: 20px 50px 150px; */
+    font-size: 19px;
+    
+  }
+
+  h1{
+    color: antiquewhite;
+    -webkit-text-stroke: 1px #000000;
+  }
+  
+
+/* */
+.my-flex-cont {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+   }
+   
+
+
+   /* */
+   
+   .my-flex-box-header {
+    
+    width: 99%;
+    padding: 12px;
+    flex: 0 1 auto;
+    background-color: rgb(166 123 206 / 58%);
+    
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   }
+   .my-flex-box {
+    width: 99%;
+    padding: 12px;
+    flex: 0 1 auto;
+    
+    min-height: 80%;
+    background: url(ainami.jpg) no-repeat;
+    background-size: cover;
+  
+
+   }
+   .my-flex-box-footer {
+    
+    width: 99%;
+    padding: 12px;
+    flex: 0 1 auto;
+    background-color: rgb(166 123 206 / 58%);
+    
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    
+   }
+
+   .knopka1{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(166, 123, 206);
+   }
+   .knopka1:hover {
+    background: rgb(250, 5, 5);
+    color: #fff;
+  }
+  .knopka2{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(166, 123, 206);
+   }
+   .knopka2:hover {
+    
+    background: rgb(2, 168, 44);
+    color: #fff;
+  }
+   .polet{
+    width: auto;
+    padding: 10px;
+    margin: 23px;
+   }
+   .fio{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(166, 123, 206);
+    font-size: 18px;
+   }
+   .textima{
+    text-align: right;
+   }
+   .radiopol{
+    text-align: left;
+   }
+
+   
+   table.iksweb{
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+	margin: auto;
+
+  background-color: antiquewhite;
+  border-radius: 25px;
+}
+
+table.iksweb,table.iksweb td, table.iksweb th {
+	
+}
+table.iksweb td,table.iksweb th {
+    padding: 12px;
+    width: 200px;
+    height: 68px;
+}
+table.iksweb th {
+	background: #347c99; 
+	color: #fff; 
+	font-weight: normal;
+}

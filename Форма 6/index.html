@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Форма 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--  -->
+
+<div class="my-flex-cont">
+    
+    <div class="my-flex-box-header">
+        
+        <h1>Регистрация</h1>
+    </div>
+
+    <div class="my-flex-box">
+        
+        <table class="iksweb">
+            <tbody>
+                <tr class="textima">
+                    <td ><label>Имя:</label></td>
+                    <td><input class="fio" type="text" placeholder="Введите имя"></td>
+                </tr>
+                <tr  class="textima">
+                    <td><label>Фамилия:</label> </td>
+                    <td><input class="fio" type="text" placeholder="Введите Фамилию"> </td>
+                </tr>
+                <tr  class="textima">
+                    <td><label>Отчество:</label> </td>
+                    <td><input class="fio" type="text" placeholder="Введите Отчество"> </td>
+                </tr>
+                <tr  class="textima">
+                    <td><label>Дата рождения:</label></td>
+                     <td><input class="fio" type="date"  required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"> </td>
+                </tr>
+                <tr  class="textima">
+                    <td><label>Пол:</label> </td>
+                    <td class="radiopol">
+                        <input type="radio" id="contactChoice1" name="contact" value="mush">
+                        <label for="contactChoice1">Мужской</label>
+
+                        <input type="radio" id="contactChoice2" name="contact" value="shen">
+                        <label for="contactChoice2">Женский</label>
+
+                    </td>
+                </tr>
+                <tr  class="textima">
+                    <td><label>Страна:</label> </td>
+                    <td>
+                        <select class="fio">
+                            <option>Россия</option>
+                            <option>США</option>
+                            <option>Германия</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="textima"><label>E-mail:</label></td>
+                    <td><input class="fio" type="text" placeholder="Введите E-mail"></td>
+                </tr>
+                <tr  class="textima">
+                    <td><label>Телефон:</label> </td>
+                    <td><input class="fio" type="text" placeholder="Введите номер телефона"> </td>
+                </tr>
+                <tr  class="textima">
+                    <td><label>Пароль:</label> </td>
+                    <td><input class="fio" type="password" maxlength="25" size="40" name="password"> </td>
+                </tr>
+                <tr  class="textima">
+                    <td><label>Подтвердите пароль:</label> </td>
+                    <td><input class="fio" type="password" maxlength="25" size="40" name="password"> </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+      
+    </div>
+
+    <div class="my-flex-box-footer"> 
+        <button class="knopka1" type="submit">Сбросить</button>
+		<button class="knopka2" type="reset">Отправить</button>
+    </div>
+</div>
+
+
+</body>
+</html>
